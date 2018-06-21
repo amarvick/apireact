@@ -6,8 +6,8 @@ import {
     fetchPostsIfNeeded,
     invalidateSubreddit
 } from '../actions'
-import Picker from '../components/Picker'
-import Posts from '../components/Posts'
+import Picker from './Picker'
+import Posts from './Posts'
 
 class AsyncApp extends Component {
     constructor(props) {
